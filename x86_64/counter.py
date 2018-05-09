@@ -152,7 +152,7 @@ def _init_metadata(ctx,):
   irpy.declare_metadata(ctx, '!0','!DIGlobalVariableExpression(var: !1)')
   irpy.declare_metadata(ctx, '!1','distinct !DIGlobalVariable(name: "counter", scope: !2, file: !3, line: 11, type: !6, isLocal: true, isDefinition: true)')
   irpy.declare_metadata(ctx, '!2','distinct !DICompileUnit(language: DW_LANG_C99, file: !3, producer: "clang version 5.0.0-3 (tags/RELEASE_500/final)", isOptimized: true, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5)')
-  irpy.declare_metadata(ctx, '!3','!DIFile(filename: "counter.c", directory: "/home/zhangqiang/Documents/test_experiment_hyperkernel")')
+  irpy.declare_metadata(ctx, '!3','!DIFile(filename: "counter.c", directory: "/home/zhangqiang/Documents/test_hv6")')
   irpy.declare_metadata(ctx, '!4','!{}')
   irpy.declare_metadata(ctx, '!5','!{!0}')
   irpy.declare_metadata(ctx, '!6','!DIBasicType(name: "unsigned int", size: 32, encoding: DW_ATE_unsigned)')
